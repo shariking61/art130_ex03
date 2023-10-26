@@ -5,38 +5,43 @@
     <title>Non-Semantic Lorem Ipsum Page</title>
 </head>
 <body>
-    <div id="header">
-        <div id="logo">Lorem Ipsum</div>
-        <div id="menu">
-            <div class="menuItem"><a href="#">Home</a></div>
-            <div class="menuItem"><a href="#">About Us</a></div>
-            <div class="menuItem"><a href="#">Services</a></div>
-            <div class="menuItem"><a href="#">Contact</a></div>
-        </div>
-    </div>
+    <header>
+        <h1> id="logo">Lorem Ipsum </h1>
+        <nav>
+            <ol>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ol>
+        </nav>
+    </header>
     
-    <div id="content">
-        <div id="about">
-            <div class="sectionTitle">About Us</div>
-            <div class="sectionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor est non diam malesuada, vel volutpat velit dapibus.</div>
-        </div>
+    <section class="content">
+        <article id="about">
+            <h1 class="sectionTitle">About Us</h1>
+            <p class="sectionText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor est non diam malesuada, vel volutpat velit dapibus.</p>
+        </article>
         
-        <div id="services">
-            <div class="sectionTitle">Our Services</div>
-            <div class="serviceItem">Service 1</div>
-            <div class="serviceItem">Service 2</div>
-            <div class="serviceItem">Service 3</div>
-        </div>
+        <section id="services">
+            <h1 class="sectionTitle">Our Services</h1>
+                <ol>
+                    <li class="serviceItem">Service 1</li> 
+                    <li class="serviceItem">Service 2</li> 
+                    <li class="serviceItem">Service 3</li> 
+                </ol>
+        </section>
         
-        <div id="contact">
-            <div class="sectionTitle">Contact Us</div>
-            <div class="sectionText">Email: <a href="mailto:info@example.com">info@example.com</a></div>
-            <div class="sectionText">Phone: <a href="tel:+1234567890">123-456-7890</a></div>
-        </div>
-    </div>
+       <section id="contact">
+            <h1>class="sectionTitle">Contact Us</h1>
+                <ol>
+                    <li class="sectionText">Email: <a href="mailto:info@example.com">info@example.com</a></li>
+                    <li class="sectionText">Phone: <a href="tel:+1234567890">123-456-7890</a></li>
+                </ol>
+        </section>
     
-    <div id="footer">
-        <div class="copyrightText">&copy; 2023 Your Company. All rights reserved.</div>
-    </div>
-</body>
+            <footer>
+                class="copyrightText">&copy; 2023 Your Company. All rights reserved.
+            </footer>
+        </body>
 </html>
